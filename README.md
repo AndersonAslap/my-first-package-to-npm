@@ -11,7 +11,7 @@ let taxCodeFormated = formatCep(taxCode); // "12345-678"
 
 ```
 
-- formatCep( value : string ) : string 
+- formatCep( value : string ) : string <br>
     Essa função irá formatar um CEP e retornar o mesmo formatado.
 
 
