@@ -6,6 +6,7 @@
 ```bash
 $ npm install my-first-package-to-npm
 ```
+##
 
 > Como usar ?
 
@@ -22,6 +23,7 @@ let taxCodeFormated = formatCep(taxCode); // "12345-678"
 - formatCep( value : string ) : string <br>
     Essa função irá formatar um CEP e retornar o mesmo formatado.
 
+## 
 
 > Como publicar ?
 
@@ -42,6 +44,8 @@ $ npm whoami
 ```bash
 $ npm publish
 ```
+
+##
 
 > Como despublicar o pacote ?
 
