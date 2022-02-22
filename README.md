@@ -1,6 +1,14 @@
 ## Criando meu primeiro pacote no npm
 
+> Como instalar o pacote ?
+
+
+```bash
+$ npm install my-first-package-to-npm
+```
+
 > Como usar ?
+
 
 ```js
 const { formatCep } = require("my-first-package-to-npm");
@@ -23,14 +31,23 @@ let taxCodeFormated = formatCep(taxCode); // "12345-678"
 $ npm login
 ```
 
-- Comandi para saber se está logado <br> após a execução do comando ele retorna o nome do usuário.
+- Comando para saber se está logado <br> após a execução do comando ele retorna o nome do usuário.
 
 ```bash
 $ npm whoami
 ```
 
+- Comando para publicar o pacote.
 
+```bash
+$ npm publish
+```
 
+> Como despublicar o pacote ?
+
+```bash
+$ npm unpublish --force
+```
 
 
 
