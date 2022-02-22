@@ -1,0 +1,20 @@
+{
+  "name": "my-first-package-to-npm",
+  "version": "1.0.0",
+  "description": "Pacote de formatação de CEP brasileiros.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersonAslap/my-first-package-to-npm.git"
+  },
+  "keywords": ["Brasil", "CEP"],
+  "author": "Anderson dos Santos Lopes Adolfo de Paiva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersonAslap/my-first-package-to-npm/issues"
+  },
+  "homepage": "https://github.com/AndersonAslap/my-first-package-to-npm#readme"
+}
