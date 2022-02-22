@@ -3,10 +3,15 @@
 > Como usar ?
 
 ```js
-const { format } = require("my-first-package-to-npm");
+const { formatCep } = require("my-first-package-to-npm");
+
+let taxCode = "12345678";
+
+let taxCodeFormated = formatCep(taxCode); // "12345-678"
+
 ```
 
-- formatCep() : Essa função irá formatar um CEP
+- formatCep( value : string ) : Essa função irá formatar um CEP
 
 
 
